@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+
+    <style>
+
+        form{
+            padding: 10px;
+            width: 400px;
+        }
+
+        #check{
+            padding: 10px;
+        }
+
+        #check2{
+            padding: 10px;
+        }
+
+        #book{
+            width: 345px;
+            background-color: rgb(10, 170, 71);
+        }
+
+        #name{
+            height: 20px;
+            margin: 5px;
+        }
+
+        #select{
+            height: 25px;
+            margin: 5px;
+        }
+
+        #h44{
+            text-align: center;
+        }
+
+
+
+       .all{
+        display: flex;
+        padding: 7px;
+       }
+    </style>
+</head>
+<body>
+    <form method="post" autocomplete="off">
+
+        <fieldset>
+            <h3 id="h44">Exhibition booking Form</h3>
+        <input type="text" name="name" id="name" placeholder="Participiants name" required>
+
+        <select name="" id="select">
+            <option value="">college student</option>
+            <option value="">AITM bhatkal</option>
+            <option value="">AITM belgum</option>
+            <option value="">AITM manglore</option>
+        </select>
+
+        <br>
+        <div class="all">
+        <div id="check">
+        <h5>Your Project Type(science)</h5>
+        <input type="checkbox" name="AIML" id="AIML" value="AIML">Technical machinery <br>
+        <input type="checkbox" name="DBMS" id="dbms" value="DBMS">Technical Computers <br>
+        <input type="checkbox" name="PYthon" id="python" value="PYTHON">Technical Research <br>
+        <input type="checkbox" name="WEB" id="web" value="web">others<br>
+    </div>
+
+    <div id="check2">
+        <h5>Your Project Type(Arts)</h5>
+        <input type="checkbox" name="AIML" id="AIML" value="AIML">Hisory <br>
+        <input type="checkbox" name="DBMS" id="dbms" value="DBMS">poltical science<br>
+        <input type="checkbox" name="PYthon" id="python" value="PYTHON">Design Arts<br>
+        <input type="checkbox" name="WEB" id="web" value="web">others<br>
+
+    </div>
+
+    </div>
+
+    <h4>Contact Information</h4>
+    <input type="email" name="email" id="email" required placeholder="enter email">
+
+    <input type="number" name="number" id="number" required placeholder="enter number"> <br><br>
+
+    <textarea name="address" id="address" cols="44" rows="5" placeholder="address"></textarea> <br> <br>
+
+    <input type="text" name="city" id="city" placeholder="city">
+    <input type="text" name="state" id="state" required placeholder="State"><br><br>
+    <input type="text" name="Zip code" id="zipcode" placeholder="Zip code" required>
+    <input type="text" name="country" id="country" placeholder="country" required><br><br>
+
+    <input type="button" value="Book Now" id="book">
+
+
+    </form>
+</body>
+</html>
